@@ -11,7 +11,6 @@ public class Main{
 
         int[] a;
         int n,x;
-//        int cnt=0;
 
         String s;
         s=br.readLine();
