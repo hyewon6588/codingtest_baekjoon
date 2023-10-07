@@ -11,7 +11,12 @@ public class Main{
         int a=1;
         int b=1;
         String s;
-        while((s=br.readLine())!=null){
+        while(true){
+            s=br.readLine();
+            if(s==null || s.isEmpty(){
+                break;
+            }
+            
             StringTokenizer st=new StringTokenizer(s);
             a=Integer.parseInt(st.nextToken());
             b=Integer.parseInt(st.nextToken());
